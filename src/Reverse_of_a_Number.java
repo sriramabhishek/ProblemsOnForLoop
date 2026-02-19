@@ -10,7 +10,7 @@ public class Reverse_of_a_Number {
         }
         int num = scan.nextInt();
         int rev = 0;
-        if(num < 0 || num < 10){
+        if(num < 10){
             System.out.println("Negative numbers and single digit's cannot be reversed , check again ");
         }
         else{
